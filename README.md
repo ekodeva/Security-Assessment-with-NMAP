@@ -14,3 +14,8 @@ The focus is not just on running commands, but on why they are used, what the re
 * Service and version detection
 * OS fingerprinting
 * Vulnerability discovery (via scripts)
+
+It is commonly used by:
+ 1. Security analysts
+ 2. Penetration testers
+ 3. Blue teams for network auditing
