@@ -19,3 +19,18 @@ It is commonly used by:
  1. Security analysts
  2. Penetration testers
  3. Blue teams for network auditing
+    
+**Lab Environment**
+Scanning Host: Kali Linux
+Target Options: - Metasploitable2 (local lab) - Windows/Linux VM - Authorized test network
+
+*All scans in this portfolio are conducted in a controlled and authorized environment.*
+
+---
+
+Phase 1: Host Discovery
+Objective
+Identify live hosts on a network before deeper scanning. This reduces noise and improves efficiency.
+
+Command
+nmap -sn 192.168.1.0/24
